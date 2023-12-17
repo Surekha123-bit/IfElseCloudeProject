@@ -1,1 +1,535 @@
 /* You can add global styles to this file, and also import other style files */
+.main {
+    height: 1920px;
+    width: 1080px;
+    margin-left: 120px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
+    background-color: rgb(245, 245, 234);
+}
+.main1 {
+    height: 40px;
+    background-color: white;
+}
+.main-color {
+    background-color: rgb(247 247 247);
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.fontweight{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fontweight1{
+    font-size: 11px;
+    color: gray;
+}
+.center1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+.center3{
+    border-radius: 10px;
+}
+.center4{
+    margin-top: 30px;
+    margin-left: 165px;
+    height: 50%;
+    width: 100%;
+}
+
+.center5{
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+.center8{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 12px;
+    
+}
+
+.center6{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+
+    
+}
+.center7{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+
+    
+}
+
+.end {
+ text-align: end;
+}
+.main2 {
+    height: 40px;
+    background-color: black;
+}
+.main2text {
+    color: rgb(202, 199, 199);
+    margin-left: 260px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.button {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 7px
+}
+
+
+.end2 {
+    text-align: center;
+}
+
+.rightNavigation {
+    margin-left: 10px;
+}
+
+.topNavigation {
+    margin-top: 8px;
+}
+
+.topNavigation1 {
+    margin-top: 8px;
+}
+.topNav {
+    height: 60px;
+    width: 100%;
+}
+.topcolor {
+    background-color: white;
+}
+.rightmargin {
+    margin-left: 8px;
+}
+
+.rightbar1 {
+    height: 150px;
+    width: 100%;
+}
+.rightbar2 {
+    height: 500px;
+    width: 100%;
+    margin-top: 8px;
+}
+.rightbar3 {
+    height: 500px;
+    width: 100%;
+    margin-top: 8px;
+}
+.commoncolor {
+    background-color: white;
+    border-radius: 10px
+}
+.leftpane1{
+    margin-left: 17px;
+    font-weight: bold;
+}
+.leftpane2{
+    margin-left: 17px;
+   font-size: 12px;
+}
+
+.left{
+    margin-left: 17px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.leftpane4{
+    margin-left: 17px;
+   font-size: 9px;
+}
+.leftpane5{
+    margin-left: 95px;
+   font-size: 9px;
+}
+
+
+
+
+.leftpane3{
+   font-size: 11px;
+   font-weight: bold;text-align: center;
+   position: relative;
+   top:12px;
+   color: gray;
+}
+.marginleft{
+    font-size: 11px;
+   font-weight: bold;
+   position: relative;
+   top:12px;
+   color: gray;
+   margin-left: 15px;
+
+}
+
+.nestleftpane1{
+    margin-top: 15px;
+}
+.nestleftpane2{
+    margin-left: 17px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.font{
+    font-size: 11px;
+}
+.circular--square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
+
+    #upload-line-join {
+        position: relative;
+        top: 249px;
+        border-color: rgb(222, 223, 224);
+      }
+      #upload-line-join1 {
+        position: relative;
+        bottom: -50px;
+        border-color: rgb(222, 223, 224);
+      }
+      #upload-line-join2 {
+        position: relative;
+        bottom: 130px;
+        border-color: rgb(222, 223, 224);
+      }
+      #upload-line-join3 {
+        position: relative;
+        bottom: 40px;
+        border-color: rgb(222, 223, 224);
+      }
+      #upload-line-join4 {
+        position: relative;
+        bottom: 380px;
+        border-color: rgb(222, 223, 224);
+      }
+    
+.overview{
+    background-color: white;height: 40px;border-radius: 15px;text-align: center;position: relative;
+}
+.overview1{
+    background-color: white;height: 40px;border-radius: 15px;text-align: center;position: relative;top:15px
+}
+
+.top{
+    position: relative;top:12px
+}
+
+.dottedborder{
+    border-style: dotted;
+    border-color: gray;
+    border-radius: 10px;
+    margin-left: 15px;
+   
+}
+.dottedborder2{
+    border-style: dotted;
+    border-color: gray;
+    border-radius: 10px;
+    height: 25%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+   
+}
+.newPayment{
+    text-align: center;
+    margin-top: 20px;;
+}
+.newPayment1{
+    text-align: center;
+    margin-top: -1px;;
+}
+
+.messageicon{
+    margin-left: 15px;
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    border-color: aliceblue;
+}
+
+.icon{
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    border-color: aliceblue;
+    height: 25px;
+    width:105px;
+   
+}
+
+.input1 {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: white;
+}
+
+.imagediv{
+    border: 1px solid;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: aliceblue;
+    height: 25%;
+    width: 90%;
+    margin-top: 20px;
+    background-color: gray;
+}
+.imagediv1{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(95 76 110);
+}
+.topmargin{
+   margin-top:-380px;
+  
+}
+.topmargin1{
+    margin-top:-50px;
+   
+ }
+ .topmargin2{
+    margin-top:-30px;
+   
+ }
+
+.bor
+{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 50%;
+    width: 90%;
+    border-color: rgb(226, 239, 250);
+}
+
+.bor1
+{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40%;
+    width: 60%;
+    border-color: rgb(226, 239, 250);
+}
+.v1 {
+    border-left: 1px solid rgb(239, 248, 239);
+    height: 50px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .watch{
+    margin-top: 25px;
+    margin-left: 35px;
+  }
+ .total{
+    border: 1px;
+    height: 5px;
+    width: 88%;
+    padding-left: 5px;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 10px;
+ }
+
+ .totalcolor{
+    border: 1px;
+    height: 5px;
+    width: 88%;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(192, 187, 187);
+ }
+
+.balance{
+    font-size: 30px;
+}
+
+.total1{
+    border: 1px;
+    height: 5px;
+    width: 40%;
+    padding-left: 5px;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 10px;
+ }
+
+ .totalcolor1{
+    border: 1px;
+    height: 5px;
+    width: 88%;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(192, 187, 187);
+ }
+
+ .left{
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    top:12px;
+    color: gray;
+    margin-left: 75px;
+ }
+
+ .flex {
+    display: flex;
+  }
+
+  .scrollbar1{
+    overflow: auto; 
+    width: 45vw;
+    height: 61vh;
+    border: 0px solid black;
+    // margin: auto;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // bottom: 0;
+    // right: 0;
+   // margin-top:80px;
+  }
+  ::-webkit-scrollbar1 {
+    display: none;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+  }
+
+.searchFilter{
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: antiquewhite;
+    height: 100%;
+}
+
+.searchFilter1{
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: antiquewhite;
+    height: 100%;
+    width: 70%;
+    font-size: 12px;
+    color: gray;
+}
+
+.example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+  }
+  
+  .topunit{
+    background-color: white;
+    margin-top: 5%;
+    padding: 0 0.75em 0 0.75em;
+    width: 75%;
+    align-items: baseline;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.topunit1{
+   margin-top: 20px;
+   margin-left: 5px;
+   //text-align: center;
+   
+}
+
+.font{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.mat-form-field{
+    background-color: white;
+  }
+
+.borderright{
+    border-right: 1px solid;
+    border-color:aliceblue;
+    height: 100%;
+
+}
+.height{
+    height: 30%;
+}
+
+.color{
+    color: red;
+}
+
+.color1{
+    color: green;
+}
+
+.color2{
+    color: orange;
+}
+
+.margin1{
+    margin-top:20px
+}
+.margin2{
+    margin-top:140px
+}
+.margin3{
+    margin-top:70px
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.scrollbar{
+    overflow: auto; 
+    width: 66vw;
+    height: 100%;
+    border: 0px solid black;
+    margin: auto;
+    position: absolute;
+    top: 70px;
+    left: 130px;
+    bottom: 0;
+    right: 0;
+    margin-top:80px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
